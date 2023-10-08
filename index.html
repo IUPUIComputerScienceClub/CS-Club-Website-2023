@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Webmasters Hackathon</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+</head>
+<body>
+    <!-- start of nav section -->
+    <nav id="nav-id">
+        <!-- logo of nav -->
+        <div class="nav-logo">
+            <img width="96px" height="64px" src="images/CS_CLUB_Transparent_LOGO.png" alt="CS CLUB Transparent LOGO">
+            <div class="nav-logo-txt">
+                IUPUI CS CLUB
+            </div>
+        </div>
+
+        <!-- nav links -->
+        <div class="nav-links">
+            <ul>
+                <li><a href="#home">Home</a></li>
+            </ul>
+            <!--<a href="#about">about</a>
+            <a href="#events">events</a>
+            <a href="#contact">contact</a>-->
+        </div>
+
+        <!-- nav links for responsive nav  -->
+        <div class="nav-ham-menu">
+            <div class="nav-bar"></div>
+            <div class="nav-bar"></div>
+            <div class="nav-bar"></div>
+          </div>
+    </nav>
+    
+
+    <!-- app id that loads page content dynamically -->
+    <div id="app"></div>
+
+
+    <!-- start of footer section -->
+    <footer id="footer-id">
+        
+        
+        <div class="social-icons">
+            <a href="https://github.com/CSClubatIUPUI"><i class="fa-brands fa-github"></i></a>
+            <a href="https://www.facebook.com/groups/2204702383"><i class="fa-brands fa-facebook"></i></a>
+            <a href="https://twitter.com/CSClub_IUPUI"><i class="fa-brands fa-twitter"></i></a>
+        </div>
+
+        <div class="footer-end">
+            <span class="footer-end-txt">IUPUI CS Club 2023 &copy;</span>
+        </div>
+    </footer>
+
+    <!-- scripts -->
+    <script src="./lib/jquery-3.6.3.min.js"></script>
+    <script type="module" src="./app/model.js"></script>
+    <script type="module" src="./app/app.js"></script>
+</body>
+</html>
