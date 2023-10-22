@@ -17,11 +17,11 @@ We're on a mission to make this website even better, and we need your help to do
 1. Ensure you have [Node.js](https://nodejs.org/) installed on your machine.
 2. Clone the repository to your local machine.
    ```
-   git clone https://github.com/your-username/CS-Club-Website.git
+   git clone https://github.com/IUPUIComputerScienceClub/CS-Club-Website-2023.git
    ```
 3. Navigate to the project directory.
    ```
-   cd CS-Club-Website
+   cd CS-Club-Website-2023
    ```
 4. Install the required dependencies.
    ```
@@ -29,6 +29,10 @@ We're on a mission to make this website even better, and we need your help to do
    ```
 
 ## Usage
+- Install the package:
+  ```
+  npm i -g live-server
+  ```
 - To start the development server:
   ```
   npm run serve
