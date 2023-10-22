@@ -50,10 +50,10 @@ Contributions to the project are welcome! If you wish to contribute, please foll
 Please ensure your code adheres to the project's coding conventions and is well-documented.
 
 ## License
-This project is licensed under the ISC License - see the [LICENSE](LICENSE) file for details.
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ## Contact
-For any inquiries or contributions, please contact the project maintainer at [your-email@domain.com](mailto:your-email@domain.com).
+For any inquiries or contributions, please contact the project maintainer at [rajaali@iu.edu](mailto:rajaali@iu.edu).
 
 
 
